@@ -1,5 +1,5 @@
 {
-    "name": "mx/report",
+    "name": "angjilliane/mxreport",
     "description": "mx package report",
     "type": "project",
     "require": {
@@ -11,7 +11,17 @@
             "email": "ang.jilliane@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "MX\\Report\\": "./src"
+        }
+    },
     "minimum-stability": "dev",
+    "autoload-dev": {
+        "psr-4": {
+            "MX\\Report\\": "./src"
+        }
+    },
     "prefer-stable": true,
     "extra": {
         "laravel": {
