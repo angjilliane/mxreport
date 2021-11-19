@@ -1,0 +1,22 @@
+{
+    "name": "mx/report",
+    "description": "mx package report",
+    "type": "project",
+    "require": {
+        "maatwebsite/excel": "^3.1"
+    },
+    "authors": [
+        {
+            "name": "Jilliane Ang",
+            "email": "ang.jilliane@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MX\\Report\\ReportServiceProvider"
+            ]
+        }
+    }
+}
