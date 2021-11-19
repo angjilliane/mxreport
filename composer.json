@@ -1,6 +1,6 @@
 {
-    "name": "mx/report",
-    "description": "mx package report",
+    "name": "angjilliane/ExportReport",
+    "description": "Laravel Excel's easy export via database configuration",
     "type": "project",
     "require": {
         "maatwebsite/excel": "^3.1"
