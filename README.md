@@ -1,2 +1,0 @@
-# MXReport
-Laravel Excel Report
