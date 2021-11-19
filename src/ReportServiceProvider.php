@@ -4,7 +4,7 @@ namespace MX\Report;
 
 use Illuminate\Support\ServiceProvider;
 
-class MXReportServiceProvider extends ServiceProvider
+class ReportServiceProvider extends ServiceProvider
 {
     /**
      * Register services.
